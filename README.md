@@ -35,6 +35,7 @@ Bank statements, invoices, and IDs are high-sensitivity. Many teams need OCR tha
 Tools aimed at statements, ledgers, or financial PDFs → structured data (tables, Excel, review workflows).
 
 - [BankOCR](https://github.com/yuezhengb/bankocr) - Offline bank-statement PDF → structured Excel, searchable/comparison PDFs, and a human review queue. CPU-first; designed not to upload statements. 离线银行流水 PDF 数字化（本列表维护者项目）。
+- [statement-synth](https://github.com/yuezhengb/statement-synth) - Generate **synthetic** bank-statement PDFs for OCR testing (clearly labeled fake data, no real PII). 假流水 PDF 生成器，方便模板贡献与 CI。
 - [Camelot](https://github.com/camelot-dev/camelot) - Extract tables from PDFs into pandas/CSV; useful when statements are text-based PDFs (not a neural OCR engine by itself).
 - [tabula-java](https://github.com/tabulapdf/tabula-java) - Classic PDF table extraction; often paired with a GUI ([Tabula](https://github.com/tabulapdf/tabula)).
 - [Excalibur](https://github.com/camelot-dev/excalibur) - Web UI for Camelot table extraction — helpful for iterating on statement layouts locally.
@@ -102,6 +103,7 @@ Building blocks frequently used before/after OCR.
 ## Datasets, papers & resource lists
 
 - Prefer carefully licensed public datasets. **Never** publish real customer bank statements or account numbers.
+- [statement-synth](https://github.com/yuezhengb/statement-synth) - Synthetic statement PDFs when you need shareable fixtures without PII.
 - [image-text-localization-recognition](https://github.com/whitelok/image-text-localization-recognition) - Paper/resource collection for scene text detection & recognition (archived upstream; still a useful bibliography).
 - Contributions with license notes welcome via PR.
 
@@ -113,9 +115,10 @@ Building blocks frequently used before/after OCR.
 
 ## How to use this list with BankOCR
 
-1. Pick an engine (e.g. RapidOCR / PaddleOCR / Tesseract) for raw text.
-2. Use PDF tools (PyMuPDF, OCRmyPDF) for render / searchable PDF.
-3. For **bank statements specifically**, see [BankOCR](https://github.com/yuezhengb/bankocr) for validation, Excel export, and review UX — and contribute templates via [good first issues](https://github.com/yuezhengb/bankocr/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+1. Generate a fake statement with [statement-synth](https://github.com/yuezhengb/statement-synth) (no real PII).
+2. Pick an engine (e.g. RapidOCR / PaddleOCR / Tesseract) for raw text.
+3. Use PDF tools (PyMuPDF, OCRmyPDF) for render / searchable PDF.
+4. For **bank statements specifically**, see [BankOCR](https://github.com/yuezhengb/bankocr) for validation, Excel export, and review UX — and contribute templates via [good first issues](https://github.com/yuezhengb/bankocr/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ## Contributing
 
@@ -134,5 +137,5 @@ Starter issue: [Add a project to the list](https://github.com/yuezhengb/awesome-
 
 ---
 
-Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr).  
-**Last reviewed:** 2026-09-21 — expanded with desktop apps, document parsers (MinerU/Docling/Surya), toolkits, and PDF pipeline utilities.
+Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
+**Last reviewed:** 2026-09-21 — added statement-synth to the finance and fixtures sections.

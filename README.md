@@ -36,6 +36,7 @@ Tools aimed at statements, ledgers, or financial PDFs → structured data (table
 
 - [BankOCR](https://github.com/yuezhengb/bankocr) - Offline bank-statement PDF → structured Excel, searchable/comparison PDFs, and a human review queue. CPU-first; designed not to upload statements. 离线银行流水 PDF 数字化（本列表维护者项目）。
 - [statement-synth](https://github.com/yuezhengb/statement-synth) - Generate **synthetic** bank-statement PDFs for OCR testing (clearly labeled fake data, no real PII). 假流水 PDF 生成器，方便模板贡献与 CI。
+- [banksheet](https://github.com/tio-ze-rj/banksheet) - Parse supported bank and credit-card statement PDFs locally into CSV, Excel, or JSON; no external APIs or cloud. Currently includes Brazilian, Canadian, and US card parsers.
 - [Camelot](https://github.com/camelot-dev/camelot) - Extract tables from PDFs into pandas/CSV; useful when statements are text-based PDFs (not a neural OCR engine by itself).
 - [tabula-java](https://github.com/tabulapdf/tabula-java) - Classic PDF table extraction; often paired with a GUI ([Tabula](https://github.com/tabulapdf/tabula)).
 - [Excalibur](https://github.com/camelot-dev/excalibur) - Web UI for Camelot table extraction — helpful for iterating on statement layouts locally.

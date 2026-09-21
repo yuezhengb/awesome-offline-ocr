@@ -67,6 +67,7 @@ Libraries you embed in your own pipeline.
 
 - [Tesseract](https://github.com/tesseract-ocr/tesseract) - Classic open-source OCR engine; the default offline baseline for many systems.
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use multi-language OCR with local model download + inference.
+- [docTR](https://github.com/mindee/doctr) - PyTorch-based OCR for PDFs and images, with selectable text-detection and recognition models that run locally.
 - [RapidOCR](https://github.com/RapidAI/RapidOCR) - Multi-backend OCR toolkit centered on ONNX Runtime / OpenVINO / etc., friendly for CPU deployment.
 - [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - Add a searchable OCR text layer to scanned PDFs locally (commonly with Tesseract).
 - [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) - Ultra-light Chinese OCR (~4.7M models) with ncnn/MNN/TNN options for edge devices.

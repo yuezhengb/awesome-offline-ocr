@@ -130,7 +130,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Prefer PRs that:
 - Avoid upload-only SaaS as the only option
 - Keep one honest line of description (no fake benchmarks)
 
-Starter issue: [Add a project to the list](https://github.com/yuezhengb/awesome-offline-ocr/issues/1)
+Starter issue: [Add another project to the list](https://github.com/yuezhengb/awesome-offline-ocr/issues/4)
 
 ## License
 
@@ -139,4 +139,4 @@ Starter issue: [Add a project to the list](https://github.com/yuezhengb/awesome-
 ---
 
 Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
-**Last reviewed:** 2026-09-21 — added statement-synth to the finance and fixtures sections.
+**Last reviewed:** 2026-09-21 — added docTR (via [#2](https://github.com/yuezhengb/awesome-offline-ocr/pull/2)); refreshed starter issue to [#4](https://github.com/yuezhengb/awesome-offline-ocr/issues/4).

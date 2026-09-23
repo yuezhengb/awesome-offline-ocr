@@ -54,11 +54,13 @@ Layout-aware parsers for complex PDFs (papers, reports, multi-column docs). Many
 
 - [MinerU](https://github.com/opendatalab/MinerU) - PDF/Office → LLM-ready Markdown/JSON with layout analysis; widely used for local document pipelines.
 - [Docling](https://github.com/docling-project/docling) - Document conversion toolkit (PDF and office formats) aimed at local/gen-AI prep workflows.
+- [Marker](https://github.com/datalab-to/marker) - Convert PDF/Office docs to Markdown/JSON/HTML with local layout + OCR (same team as Surya); runs on GPU/CPU/MPS.
 - [Surya](https://github.com/datalab-to/surya) - OCR + layout + reading order + tables across many languages; local model inference.
 - [Chandra](https://github.com/datalab-to/chandra) - OCR focused on complex tables, forms, and handwriting with layout (from the Surya team).
 - [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) - End-to-end “OCR 2.0” research/code for unified document OCR.
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Multilingual document layout parsing with a vision-language model approach.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - Open OCR / optical compression research codebase from DeepSeek (self-host / local research use).
+- [olmOCR](https://github.com/allenai/olmocr) - Allen AI toolkit to linearize PDFs into text for LLM pipelines; designed for local/batch document processing.
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Full OCR + document structure toolkit (PP-OCR / PP-Structure); strong local Chinese/English support and PDF pipelines.
 
 ## General OCR toolkits
@@ -139,4 +141,4 @@ Starter issue: [Add another project to the list](https://github.com/yuezhengb/aw
 ---
 
 Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
-**Last reviewed:** 2026-09-21 — added docTR (via [#2](https://github.com/yuezhengb/awesome-offline-ocr/pull/2)); refreshed starter issue to [#4](https://github.com/yuezhengb/awesome-offline-ocr/issues/4).
+**Last reviewed:** 2026-09-23 — added Marker and olmOCR (document parsing).

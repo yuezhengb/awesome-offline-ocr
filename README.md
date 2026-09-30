@@ -61,6 +61,8 @@ Layout-aware parsers for complex PDFs (papers, reports, multi-column docs). Many
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Multilingual document layout parsing with a vision-language model approach.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - Open OCR / optical compression research codebase from DeepSeek (self-host / local research use).
 - [olmOCR](https://github.com/allenai/olmocr) - Allen AI toolkit to linearize PDFs into text for LLM pipelines; designed for local/batch document processing.
+- [MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR) - Structure-Recognition-Relation document parser (text, tables, formulas, layout) with local GPU install and self-hosted inference.
+- [OCRFlux](https://github.com/chatdoc-com/OCRFlux) - Multimodal-model toolkit that converts PDFs/images to clean Markdown and merges tables/paragraphs across pages; runs locally via vLLM on GPU.
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Full OCR + document structure toolkit (PP-OCR / PP-Structure); strong local Chinese/English support and PDF pipelines.
 
 ## General OCR toolkits
@@ -141,4 +143,4 @@ Starter issue: [Add another project to the list](https://github.com/yuezhengb/aw
 ---
 
 Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
-**Last reviewed:** 2026-09-23 — added Marker and olmOCR (document parsing).
+**Last reviewed:** 2026-09-30 — added MonkeyOCR and OCRFlux (document parsing).

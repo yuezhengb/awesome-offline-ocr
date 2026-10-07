@@ -73,6 +73,7 @@ Libraries you embed in your own pipeline.
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use multi-language OCR with local model download + inference.
 - [docTR](https://github.com/mindee/doctr) - PyTorch-based OCR for PDFs and images, with selectable text-detection and recognition models that run locally.
 - [RapidOCR](https://github.com/RapidAI/RapidOCR) - Multi-backend OCR toolkit centered on ONNX Runtime / OpenVINO / etc., friendly for CPU deployment.
+- [OpenOCR](https://github.com/Topdu/OpenOCR) - PyTorch toolkit for OCR research and applications (text detection/recognition plus document parsing) with locally runnable models; Apache-2.0.
 - [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - Add a searchable OCR text layer to scanned PDFs locally (commonly with Tesseract).
 - [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) - Ultra-light Chinese OCR (~4.7M models) with ncnn/MNN/TNN options for edge devices.
 
@@ -143,4 +144,4 @@ Starter issue: [Add another project to the list](https://github.com/yuezhengb/aw
 ---
 
 Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
-**Last reviewed:** 2026-09-30 — added MonkeyOCR and OCRFlux (document parsing).
+**Last reviewed:** 2026-10-07 — added OpenOCR (general OCR toolkits).

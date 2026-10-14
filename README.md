@@ -46,6 +46,7 @@ End-user apps that emphasize offline recognition (screenshots, batches, PDFs).
 
 - [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) - Popular free offline OCR desktop app (batch images/PDF, watermark/header filters, multi-language). 开源免费离线 OCR 软件。
 - [eSearch](https://github.com/xushengfeng/eSearch) - Cross-platform screenshot + offline OCR + search/translate utilities (Windows/Linux/macOS).
+- [Folio-OCR](https://github.com/vorojar/Folio-OCR) - Local batch OCR workbench (Ollama + GLM-OCR + layout detection); PDF/image → Markdown/Word; MIT. 纯本地批量 OCR 工作台。
 - [tr (myhub/tr)](https://github.com/myhub/tr) - Offline Chinese text detection + recognition SDK oriented to local use.
 
 ## Document parsing (PDF → Markdown/JSON)
@@ -60,6 +61,7 @@ Layout-aware parsers for complex PDFs (papers, reports, multi-column docs). Many
 - [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0) - End-to-end “OCR 2.0” research/code for unified document OCR.
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Multilingual document layout parsing with a vision-language model approach.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - Open OCR / optical compression research codebase from DeepSeek (self-host / local research use).
+- [HunyuanOCR](https://github.com/Tencent-Hunyuan/HunyuanOCR) - Lightweight end-to-end OCR VLM (document parsing, spotting, IE); local via vLLM or llama.cpp. Community license with territory limits — check LICENSE.
 - [olmOCR](https://github.com/allenai/olmocr) - Allen AI toolkit to linearize PDFs into text for LLM pipelines; designed for local/batch document processing.
 - [MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR) - Structure-Recognition-Relation document parser (text, tables, formulas, layout) with local GPU install and self-hosted inference.
 - [OCRFlux](https://github.com/chatdoc-com/OCRFlux) - Multimodal-model toolkit that converts PDFs/images to clean Markdown and merges tables/paragraphs across pages; runs locally via vLLM on GPU.
@@ -73,6 +75,7 @@ Libraries you embed in your own pipeline.
 - [EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use multi-language OCR with local model download + inference.
 - [docTR](https://github.com/mindee/doctr) - PyTorch-based OCR for PDFs and images, with selectable text-detection and recognition models that run locally.
 - [RapidOCR](https://github.com/RapidAI/RapidOCR) - Multi-backend OCR toolkit centered on ONNX Runtime / OpenVINO / etc., friendly for CPU deployment.
+- [light-ocr](https://github.com/arcships/light-ocr) - Fast offline OCR for Node.js & C++ (bundled PP-OCRv6, Core ML / WebGPU); no runtime model download; Apache-2.0.
 - [OpenOCR](https://github.com/Topdu/OpenOCR) - PyTorch toolkit for OCR research and applications (text detection/recognition plus document parsing) with locally runnable models; Apache-2.0.
 - [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - Add a searchable OCR text layer to scanned PDFs locally (commonly with Tesseract).
 - [chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) - Ultra-light Chinese OCR (~4.7M models) with ncnn/MNN/TNN options for edge devices.
@@ -144,4 +147,4 @@ Starter issue: [Add another project to the list](https://github.com/yuezhengb/aw
 ---
 
 Maintained alongside [BankOCR](https://github.com/yuezhengb/bankocr) and [statement-synth](https://github.com/yuezhengb/statement-synth).  
-**Last reviewed:** 2026-10-07 — added OpenOCR (general OCR toolkits).
+**Last reviewed:** 2026-10-14 — added Folio-OCR, HunyuanOCR, and light-ocr.

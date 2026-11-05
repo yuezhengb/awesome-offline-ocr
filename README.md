@@ -91,6 +91,7 @@ Libraries you embed in your own pipeline.
 
 - [LaTeX-OCR (pix2tex)](https://github.com/lukas-blecher/LaTeX-OCR) - Convert images of equations to LaTeX.
 - [MixTeX-Latex-OCR](https://github.com/RQLuo/MixTeX-Latex-OCR) - Multimodal LaTeX / Zh-En / table OCR with local CPU-oriented Windows offline inference.
+- [OpenMathpix](https://github.com/JhuoW/OpenMathpix) - Free Windows x64 desktop tool that converts single-equation screenshots to LaTeX offline on the CPU after a one-time model download.
 - [ddddocr](https://github.com/sml2h3/ddddocr) - Lightweight captcha-oriented OCR (specialized; not for bank statements).
 
 ## PDF utilities for OCR pipelines
